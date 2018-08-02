@@ -1,0 +1,158 @@
+main{
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #DCDCDC;
+  font-family: Courier;
+  font-size: 20px;
+}
+
+body{
+  background-image: url("https://i2-prod.birminghammail.co.uk/incoming/article13592743.ece/ALTERNATES/s1200/physician-pub-2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+th{
+  padding: 5px;
+}
+
+li{
+  list-style-type: none;
+}
+
+input{
+  padding: 10px;
+  border-radius: 5px;
+  width: 90%;
+  font-size: 22px;
+  margin: 10px;
+}
+
+option{
+  font-size: 30px;
+  font-size-adjust: 0.5;
+}
+
+.beers{
+  padding: 5px;
+}
+
+img{
+  max-height: 150px;
+  max-width: 150px;
+  padding: 10px;
+}
+
+img.individual{
+  max-height: 250px;
+  max-width: 250px;
+  padding: 20px;
+}
+
+img.logo{
+  max-height: 400px;
+  max-width: 400px;
+  padding: 25px;
+  display: block;
+  margin-left: auto;
+    margin-right: auto;
+  justify-content: center;
+}
+
+.beer{
+  border-style: solid;
+  /* max-width: 70%; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  margin: 15px;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  margin: 30px;
+  display: block;
+  margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.ingredients{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  margin: 30px;
+  display: block;
+    padding: 15px;
+}
+
+.select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+    -webkit-appearance: none;
+    font: normal normal bold 20px/40px "Baumans", Helvetica, sans-serif;
+}    .select select {
+        width: 100%;
+        cursor: pointer;
+        padding: 20px 15px;
+        outline: 0;
+        border: 0px solid #000000;
+        border-radius: 0px;
+        background: #DCDCDC;
+        color: #505050;
+        -webkit-appearance: none;
+    }
+        .select select::-ms-expand {
+            display: none;
+        }
+        .select select:hover,
+        .select select:focus {
+            color: #fcfafa;
+            background: #CCCCCC;
+        }
+        .select select:disabled {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+.select_arrow {
+    position: absolute;
+    top: 15px;
+    right: 28px;
+    width: 6px;
+    height: 6px;
+    border: solid #ffffff;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.select select:hover ~ .select_arrow,
+.select select:focus ~ .select_arrow {
+    border-color: #020202;
+}
+.select select:disabled ~ .select_arrow {
+    border-top-color: #CCCCCC;
+}
+
+button{
+  display: inline-block;
+  box-sizing: content-box;
+  cursor: pointer;
+  padding: 0 20px;
+  border: none;
+  border-radius: 20px;
+  font: normal normal bold 20px/40px "Baumans", Helvetica, sans-serif;
+  color: black;
+  text-overflow: clip;
+  background: rgb(221, 221, 221);
+  box-shadow: 0 1px 0 0 rgb(119,119,119) , 0 2px 0 0 rgb(119,119,119) , 0 3px 0 0 rgb(119,119,119) , 0 4px 0 0 rgb(119,119,119) , 0 5px 0 0 rgb(119,119,119) , 0 6px 0 0 rgb(119,119,119) , 0 0 5px 0 rgba(0,0,0,0.0980392) , 0 1px 3px 0 rgba(0,0,0,0.298039) , 0 3px 5px 0 rgba(0,0,0,0.2) , 0 5px 10px 0 rgba(0,0,0,0.247059) , 0 10px 10px 0 rgba(0,0,0,0.2) , 0 20px 20px 0 rgba(0,0,0,0.14902);
+  text-shadow: 0 1px 0 #FFFFFF;
+}
